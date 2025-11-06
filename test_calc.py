@@ -8,12 +8,12 @@ def test_add():
 
 def test_sub():
     # in unit test caess we compare actual o/p vs expected o/p
-    assert add(3,1) == 2
+    assert sub(3,1) == 2
 
 def test_mul():
     # in unit test caess we compare actual o/p vs expected o/p
-    assert add(4,2) == 8
+    assert mul(4,2) == 8
 
 def test_div():
     # in unit test caess we compare actual o/p vs expected o/p
-    assert add(4,2) == 2
+    assert div(4,2) == 2
